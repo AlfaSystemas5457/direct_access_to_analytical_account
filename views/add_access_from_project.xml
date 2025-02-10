@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <record id="add_access_from_project" model="ir.ui.view">
+        <field name="name">add.access.from.project</field>
+        <field name="model">project.project</field>
+        <field name="inherit_id" ref="project.edit_project" />
+        <field name="arch" type="xml">
+            <xpath expr="//button[@name='action_view_tasks']" position="before">
+                <button name="view_analyitc_account"
+                    string="Ver cuenta analítica"
+                    type="object"
+                    invisible="account_id == False"
+                    class="oe_stat_button"
+                    icon="fa-info" />
+            </xpath>
+        </field>
+    </record>
+</odoo>
