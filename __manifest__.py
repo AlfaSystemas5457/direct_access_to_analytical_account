@@ -4,7 +4,7 @@
     'summary': "Agrega acceso a la cuenta analitica desde proyectos",
     'description': """Agrega acceso a la cuenta analitica desde proyectos""",
     'author': "DGV",
-    # 'website': "https://www.yourcompany.com",
+    'website': "https://github.com/AlfaSystemas5457/direct_access_to_analytical_account",
     'category': 'Uncategorized',
     'version': '0.1',
     
