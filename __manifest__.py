@@ -7,6 +7,7 @@
     'website': "https://github.com/AlfaSystemas5457/direct_access_to_analytical_account",
     'category': 'Uncategorized',
     'version': '0.1',
+    'license': 'LGPL-3',
     
     'depends': ['project'],
     
